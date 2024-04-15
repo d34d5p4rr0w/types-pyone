@@ -4,13 +4,15 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "types-pyone"
-version = "0.1.5"
+version = "0.1.6"
 authors = [
   { name="d34d5p4rr0w" },
 ]
 description = "Type stubs for pyone library"
 readme = "README.md"
-install_requires=['pyone']
+dependencies = [
+    "pyone"
+]
 requires-python = ">=3.8"
 classifiers = [
     "Development Status :: 3 - Alpha",
