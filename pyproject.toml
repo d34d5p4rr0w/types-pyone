@@ -10,6 +10,7 @@ authors = [
 ]
 description = "Type stubs for pyone library"
 readme = "README.md"
+install_requires=['pyone']
 requires-python = ">=3.8"
 classifiers = [
     "Development Status :: 3 - Alpha",
