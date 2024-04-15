@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='types-pyone',
-    version='0.1.2',
+    version='0.1.3',
     description='Type stubs for pyone library',
     url='https://github.com/d34d5p4rr0w/types-pyone',
 
@@ -10,7 +10,6 @@ setup(
     package_data={'pyone': ['*.pyi'], 'pyone': ['py.typed']},
     install_requires=[
         'pyone',
-        'typing-extensions',
     ],
     classifiers=[
         'Development Status :: 3 - Alpha',
