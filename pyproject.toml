@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "types-pyone"
-version = "0.1.6.1"
+version = "0.1.7"
 authors = [
   { name="d34d5p4rr0w" },
 ]
