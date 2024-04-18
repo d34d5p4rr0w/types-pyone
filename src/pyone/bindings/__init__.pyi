@@ -1,6 +1,5 @@
 from typing import Any, Protocol
 
-
 class IMAGESub(Protocol):
 
     @property

@@ -1,11 +1,12 @@
 # Stub file for pyone module
 import xmlrpc.client
-from typing import Any, Dict, Optional, Tuple, Union, Protocol
+from typing import Any, Dict, Optional, Protocol, Tuple, Union
 from xmlrpc.client import Transport, _Marshallable
 
 from _typeshed import SizedBuffer
 from aenum import IntEnum
 from six import string_types
+
 from . import bindings
 
 # Exceptions as defined in the XML-API reference
